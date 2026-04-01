@@ -1,6 +1,9 @@
 import './App.css'
+import FooterUp from './FooterUp/FooterUp'
 import Hero from './Hero/Hero'
+import Footer from './Main footer/Footer'
 import NavBar from './Nav/NavBar'
+import Stats from './Stats/Stats'
 
 
 function App() {
@@ -9,6 +12,9 @@ function App() {
     <>
      <NavBar></NavBar>
       <Hero></Hero>
+      <Stats></Stats>
+      <FooterUp></FooterUp>
+      <Footer></Footer>
     </>
   )
 }
